@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="460.0" prefWidth="936.0" style="-fx-background-color: #281178;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ta.FXMLDocumentController">
+    <children>
+      <Separator layoutX="499.0" layoutY="16.0" orientation="VERTICAL" prefHeight="424.0" prefWidth="9.0" />
+      <Separator layoutX="10.0" layoutY="18.0" orientation="VERTICAL" prefHeight="424.0" prefWidth="9.0" />
+      <Separator layoutX="19.0" layoutY="438.0" prefHeight="4.0" prefWidth="489.0" />
+      <Separator layoutX="12.0" layoutY="16.0" prefHeight="4.0" prefWidth="489.0" />
+      <AnchorPane layoutX="678.0" layoutY="-165.0" prefHeight="431.0" prefWidth="273.0" style="-fx-background-color: #7b8fd0;">
+         <children>
+            <AnchorPane id="AnchorPane" layoutX="-427.0" layoutY="165.0" prefHeight="460.0" prefWidth="809.0" style="-fx-background-color: #281178;">
+               <children>
+                  <Label layoutX="37.0" layoutY="106.0" prefHeight="25.0" prefWidth="93.0" style="-fx-background-color: black;" text="No Kendaraan" textAlignment="CENTER" textFill="#e3e8e6">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="115.0" layoutY="50.0" prefHeight="4.0" prefWidth="266.0" style="-fx-background-color: BLACK;" />
+                  <Label layoutX="37.0" layoutY="162.0" prefHeight="20.0" prefWidth="93.0" style="-fx-background-color: black;" text="Masuk KM" textAlignment="CENTER" textFill="#eff5f5">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="327.0" prefHeight="25.0" prefWidth="37.0" style="-fx-background-color: black;" text="Total" textAlignment="CENTER" textFill="#f8f8f8">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="no_kendaraan" layoutX="240.0" layoutY="100.0" style="-fx-background-color: white;" />
+                  <JFXTextArea fx:id="hasil" layoutX="244.0" layoutY="314.0" maxWidth="318.0" minWidth="135.0" prefHeight="106.0" prefWidth="200.0" />
+                  <Separator layoutX="36.0" layoutY="306.0" prefHeight="4.0" prefWidth="408.0" style="-fx-background-color: black;" />
+                  <Text fill="#eeebeb" layoutX="48.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="            PEMBAYARAN TOL SALATIGA" wrappingWidth="343.99999433755875">
+                     <font>
+                        <Font name="Bodoni Bd BT Bold" size="18.0" />
+                     </font>
+                  </Text>
+                  <Separator layoutX="10.0" layoutY="18.0" orientation="VERTICAL" prefHeight="424.0" prefWidth="9.0" />
+                  <Separator layoutX="19.0" layoutY="438.0" prefHeight="4.0" prefWidth="489.0" />
+                  <Separator layoutX="12.0" layoutY="16.0" prefHeight="4.0" prefWidth="489.0" />
+                  <AnchorPane layoutX="516.0" layoutY="17.0" prefHeight="431.0" prefWidth="273.0" style="-fx-background-color: #7b8fd0;">
+                     <children>
+                        <Label layoutX="9.0" layoutY="14.0" prefHeight="25.0" prefWidth="273.0" text="TERIMAKASIH ATAS KUNJUNGAN ANDA ">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Separator layoutX="47.0" layoutY="37.0" prefHeight="4.0" prefWidth="191.0" style="-fx-background-color: BLACK;" />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/gambar.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="189.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/gambar.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-86.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/car.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="89.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/car.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="139.0" fitWidth="266.0" layoutX="41.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../gambar/pol.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Label layoutX="37.0" layoutY="220.0" prefHeight="20.0" prefWidth="93.0" style="-fx-background-color: black;" text="Keluar KM" textAlignment="CENTER" textFill="#eff5f5">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="79.0" fitWidth="169.0" layoutX="26.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/car.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="btn_submit" layoutX="354.0" layoutY="271.0" onAction="#cetak" style="-fx-background-color: black;" text="Submit" textFill="#eee6ea" />
+                  <JFXTextField fx:id="masuk" layoutX="240.0" layoutY="157.0" style="-fx-background-color: white;" />
+                  <JFXTextField fx:id="keluar" layoutX="240.0" layoutY="213.0" style="-fx-background-color: white;" />
+                  <ImageView fitHeight="79.0" fitWidth="169.0" layoutX="151.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/car.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="79.0" fitWidth="169.0" layoutX="-225.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../gambar/car.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Text fill="#eee9e9" layoutX="31.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELAMAT DATANG ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="79.0" fitWidth="169.0" layoutX="118.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/car.png" />
+         </image>
+      </ImageView>
+      <Text fill="#eee9e9" layoutX="31.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pilih Jenis Kendaraan " wrappingWidth="191.0000067949295">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Separator layoutX="23.0" layoutY="69.0" prefHeight="4.0" prefWidth="233.0" />
+      <RadioButton fx:id="tb_truck" layoutX="63.0" layoutY="167.0" mnemonicParsing="false" text="TRUCK" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="jenis" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="tb_bis" layoutX="63.0" layoutY="211.0" mnemonicParsing="false" text="BIS" textFill="#fffbfb" toggleGroup="$jenis" />
+      <RadioButton fx:id="tb_mobil" layoutX="63.0" layoutY="259.0" mnemonicParsing="false" text="MOBIL" textFill="WHITE" toggleGroup="$jenis" />
+    </children>
+</AnchorPane>
